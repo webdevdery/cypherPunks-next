@@ -1,0 +1,120 @@
+
+.slide_content {
+  min-height: 578px;
+}
+
+.find_btn {
+  padding: 20px 50px;
+}
+
+.arrow_down {
+  width: 44px;
+  height: 25px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.social_icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.social_icon {
+  width: 60px;
+  height: 60px;
+  background-color: #EDFF81;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-radius 0.2s;
+}
+
+.social_icon:hover {
+  background-color: #86F7FC;
+  border-radius: 30px;
+}
+
+.social_icon a {
+  color: black;
+}
+
+.social_icon a:hover {
+  color: black;
+}
+
+@media (max-width:991px) {
+  .social_icons {
+    position: static;
+  }
+}
+.explorer_btn{
+  display: black;
+}
+.collection {
+  margin-bottom: 120px;
+}
+
+.roadmap {
+  margin-top: 50px;
+}
+
+.roadmap_img {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.roadmap_img img {
+  width: 100%;
+}
+
+.specs {
+  margin-bottom: 130px;
+}
+
+.specs_img {
+  max-width: 700px;
+  position: absolute;
+  right: 0px;
+  bottom: -143px;
+}
+
+.specs_img img {
+  width: 100%;
+}
+
+@media (max-width: 1399px) {
+  .specs_img {
+    bottom: -75px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .specs_img {
+    bottom: -22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .specs_img {
+    bottom: 66px;
+  }
+}
+
+@media (max-width: 767px) {
+  .specs_img {
+    position: static;
+    margin-bottom: 50px;
+  }
+  .slide_content {
+    min-height: 400px;
+  }
+}

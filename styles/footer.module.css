@@ -1,0 +1,10 @@
+.footer_social {
+  color: black;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+}
+
+.footer_social a:hover {
+  color: white;
+}

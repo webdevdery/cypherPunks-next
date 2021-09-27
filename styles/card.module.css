@@ -1,0 +1,24 @@
+.collection_card {
+  max-width: 555px;
+  width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.content_img {
+  width: 100%;
+}
+
+.comment {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  opacity: 0;
+  transition: bottom 0.5s;
+  z-index: 999;
+}
+
+.collection_card:hover .comment {
+  opacity: 1;
+  bottom: -20%;
+}

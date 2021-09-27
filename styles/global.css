@@ -6,6 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: #1c2025;
 }
 
 * {
@@ -24,4 +25,128 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font-brand {
+  font-family: Orbitron;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-55 {
+  font-size: 55px;
+}
+
+.font-45 {
+  font-size: 45px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-34 {
+  font-size: 34px;
+}
+
+.line-height-90 {
+  line-height: 90px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.bg-brand {
+  background-color: #EDFF81;
+}
+
+.color-brand {
+  color: #EDFF81;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.padding-y-7 {
+  padding-top: 7em!important;
+  padding-bottom: 7em!important;
+}
+
+.line-height-70 {
+  line-height: 70px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .font-60 {
+    font-size: 40px;
+  }
+  .font-50 {
+    font-size: 30px;
+  }
+  .font-45 {
+    font-size: 27px;
+  }
+  .font-34 {
+    font-size: 18px;
+  }
+  .font-40 {
+    font-size: 24px;
+  }
+}
+
+.mr-7 {
+  margin-right: .7em;
+}
+.color-dark{
+  color: black;
 }

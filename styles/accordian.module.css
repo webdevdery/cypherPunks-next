@@ -1,0 +1,83 @@
+.under_tri {
+  width: 17px;
+  height: 17px;
+  line-height: 80px;
+}
+
+.under_tri img {
+  width: 100%;
+}
+
+.exit {
+  width: 17px;
+  height: 17px;
+  line-height: 55px;
+}
+
+.exit img {
+  width: 17px;
+}
+
+.line {
+  margin-top: 28px;
+  border-top: 3px solid #EDFF81;
+}
+
+.question_line {
+  max-width: 668px;
+  width: 900px;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+.accord_header {
+  width: 100%;
+  cursor: pointer;
+  background-color: #212529;
+}
+
+.accordion_item {
+  background-color: #212529!important;
+  border: none!important;
+}
+
+.show {
+  /* display: block; */
+  height: auto;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.hidden {
+  /* display: none; */
+  height: 0px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.accord_body {
+  z-index: -400;
+  margin: 0;
+  padding: 0;
+}
+
+.accord_body p {
+  z-index: -999;
+}
+
+.accordion_button {
+  padding: 0!important;
+  background-color: #212529!important;
+  border: none;
+}
+
+button.accordion_button:focus {
+  box-shadow: none;
+  border: none;
+}
+
+button.accordion_button::after {
+  width: 0;
+  height: 0;
+  content: "";
+}

@@ -1,0 +1,62 @@
+.logo {
+  max-width: 474px;
+  height: 43px;
+}
+
+.wallet-button {
+  padding: 30px 30px;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 250px;
+    height: 43px;
+  }
+}
+
+.specs {
+  margin-bottom: 130px;
+}
+
+.specs_img {
+  max-width: 700px;
+  position: absolute;
+  right: 0px;
+  bottom: -143px;
+}
+
+.specs_img img {
+  width: 100%;
+}
+
+@media (max-width: 1399px) {
+  .specs_img {
+    bottom: -75px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .specs_img {
+    bottom: -22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .specs_img {
+    bottom: 66px;
+  }
+}
+
+@media (max-width: 767px) {
+  .specs_img {
+    position: static;
+    margin-bottom: 50px;
+  }
+  .slide_content {
+    min-height: 400px;
+  }
+}
